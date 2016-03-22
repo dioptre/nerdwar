@@ -4,7 +4,7 @@ input = JSON.parse(ARGF.read)
 
 start = Time.now
 
-1.times.each do |e|
+100000.times.each do |e|
   min_column = input.map {|a| a.first}
   max = min_column.max
   second_smallest = min_column.sort[1]
