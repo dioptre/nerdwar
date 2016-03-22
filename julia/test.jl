@@ -13,4 +13,4 @@ write(outfile,JSON.json(x))
   next = minimum(deleteat!(y,small))
   (findlast(x->x<=next,x[small]), big)
 end
-@time for m in 1:100000 find_range(x) end
+@time fetch(@async for m in 1:100000 find_range(x) end)
