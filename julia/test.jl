@@ -9,9 +9,9 @@ using JSON
 #end
 #outfile = open("test.txt", "w")
 #write(outfile,JSON.json(x))
-f = open("../data.json")
-s = readall(f)
-x = convert(Array{Array{Int,1},1}, JSON.parse(s))
+f = open("../data.json");
+s = readall(f);
+x = convert(Array{Array{Int,1},1}, JSON.parse(s));
 @inbounds function find_range(x::Array{Array{Int, 1},1})
   y = [i[1] for i in x] # sort!(x,by=x->x[1])
   small = indmin(y) #extrema(y)
