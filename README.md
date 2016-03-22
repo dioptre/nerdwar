@@ -1,7 +1,7 @@
 #Challenge
 Select the smallest range of numbers that span all arrays. So in the example it's between 3 and 60.
 
-(/images/challenge.jpg)
+![The Challenge](/images/challenge.jpg)
 
 #Results
 * Ruby (seconds): 
