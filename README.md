@@ -9,9 +9,11 @@ Ie.
   _  | |
 _| |_| |_
 ```
-* = [0,1,2,0]
+* = [0,1,0,2,0] where array = 10^6 in length
 
 Water = 1
+
+Then repeat 100 times
 
 #Results
 
