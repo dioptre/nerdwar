@@ -9,11 +9,9 @@ Ie.
   _  | |
 _| |_| |_
 ```
-* = [0,1,0,2,0] where array = 10^6 in length
+* = [0,1,0,2,0] where array in this 5 length array example the water level = 1
 
-Water = 1
-
-Then repeat 100 times
+Extrapolate the length of the array to 10^6 long, and then repeat 100 times!
 
 #Results
 
