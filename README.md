@@ -22,3 +22,9 @@ Then repeat 100 times
 julia> include("run.jl")
   1.537396 seconds (17.21 k allocations: 955.118 MB, 1.59% gc time)
 ```
+
+* Python
+```
+a@andyg:~/Downloads/nerdwar/python$ python island.py 
+0.950380086899
+```
