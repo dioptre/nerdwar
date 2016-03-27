@@ -1,11 +1,13 @@
 #Summary
 1. Julia is OK.
-2. Ruby is dog slow.
+2. Ruby is slow (up to 1000x) slower.
 
 #Challenge
 Select the smallest range of numbers that span all arrays. So in the example it's between 3 and 60.
 
 ![The Challenge](/images/challenge.jpg)
+
+* The test is to repeat it 100,000 times for the data in the data.json file!
 
 #Results
 * Ruby (seconds): 
